@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Camila Rodrigues is a marketing professional and front-end developer based in Canada,check out more of her projects."
+    />
+    <title>Portfolio - Camila Rodrigues Campos</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styleguide.css" />
+    <link rel="stylesheet" href="css/portfolio.css" />
+  </head>
+  <body>
+    <nav>
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 -960 960 960"
+              width="24"
+            >
+              <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+              />
+            </svg>
+          </a>
+        </li>
+        <li><a href="/about.html" title="About Camila Rodrigues">About</a></li>
+        <li>
+          <a href="/#portfolio" title="Portfolio Camila Rodrigues">Portfolio</a>
+        </li>
+        <li>
+          <a href="/#services" title="Services Camila Rodrigues">Services</a>
+        </li>
+        <li>
+          <a href="/contact.html" title="Contact Camila Rodrigues">Contact</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="/">
+            <img
+              class="logoCrc"
+              src="img/logo-crc_2.webp"
+              alt="CRC Logo"
+              width="60"
+              height="60"
+            />
+          </a>
+        </li>
+        <li class="hideOnMobile">
+          <a href="/about.html" title="About Camila Rodrigues">About</a>
+        </li>
+        <li class="hideOnMobile">
+          <a href="/#portfolio" title="Portfolio Camila Rodrigues">Portfolio</a>
+        </li>
+        <li class="hideOnMobile">
+          <a href="/#services" title="Services Camila Rodrigues">Services</a>
+        </li>
+        <li class="hideOnMobile">
+          <a
+            class="buttonContact"
+            href="/contact.html"
+            title="Contact Camila Rodrigues"
+            >Contact</a
+          >
+        </li>
+        <li class="menu-button" onclick="showSidebar()">
+          <a href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 -960 960 960"
+              width="24"
+            >
+              <path
+                d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+              />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <footer>
+      <ul>
+        <li>
+          <a href="/">
+            <img
+              class="logoFooter"
+              src="img/crc-logo-white.webp"
+              alt="CRC Logo"
+            />
+          </a>
+        </li>
+        <li><a href="/about.html" title="About Camila Rodrigues">About</a></li>
+        <li>
+          <a href="/#portfolio" title="Portfolio Camila Rodrigues">Portfolio</a>
+        </li>
+        <li>
+          <a href="/#services" title="Services Camila Rodrigues">Services</a>
+        </li>
+        <li>
+          <a href="/contact.html" title="Contact Camila Rodrigues">Contact</a>
+        </li>
+      </ul>
+      <div class="social-media-row">
+        <div class="social-media">
+          <a href="https://www.instagram.com" target="_blank">
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 18 18"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.00048 9C6.00048 7.34321 7.34322 5.99976 9 5.99976C10.6568 5.99976 12.0002 7.34321 12.0002 9C12.0002 10.6568 10.6568 12.0002 9 12.0002C7.34322 12.0002 6.00048 10.6568 6.00048 9ZM4.37859 9C4.37859 11.5524 6.44758 13.6214 9 13.6214C11.5524 13.6214 13.6214 11.5524 13.6214 9C13.6214 6.44758 11.5524 4.37859 9 4.37859C6.44758 4.37859 4.37859 6.44758 4.37859 9ZM12.7243 4.1954C12.7243 4.79152 13.2078 5.27569 13.8046 5.27569C14.4007 5.27569 14.8849 4.79152 14.8849 4.1954C14.8849 3.59927 14.4015 3.11583 13.8046 3.11583C13.2078 3.11583 12.7243 3.59927 12.7243 4.1954ZM5.36365 16.3258C4.48619 16.2858 4.00929 16.1397 3.69233 16.0161C3.27213 15.8525 2.97262 15.6577 2.65711 15.3429C2.34233 15.0281 2.14677 14.7286 1.98393 14.3084C1.86034 13.9914 1.71422 13.5145 1.67423 12.6371C1.63061 11.6884 1.62189 11.4034 1.62189 9C1.62189 6.59661 1.63134 6.31236 1.67423 5.36292C1.71422 4.48546 1.86107 4.00929 1.98393 3.6916C2.1475 3.27141 2.34233 2.97189 2.65711 2.65638C2.97189 2.3416 3.27141 2.14604 3.69233 1.9832C4.00929 1.85961 4.48619 1.71349 5.36365 1.67351C6.31236 1.62989 6.59733 1.62116 9 1.62116C11.4034 1.62116 11.6876 1.63061 12.6371 1.67351C13.5145 1.71349 13.9907 1.86034 14.3084 1.9832C14.7286 2.14604 15.0281 2.3416 15.3436 2.65638C15.6584 2.97116 15.8532 3.27141 16.0168 3.6916C16.1404 4.00856 16.2865 4.48546 16.3265 5.36292C16.3701 6.31236 16.3788 6.59661 16.3788 9C16.3788 11.4027 16.3701 11.6876 16.3265 12.6371C16.2865 13.5145 16.1397 13.9914 16.0168 14.3084C15.8532 14.7286 15.6584 15.0281 15.3436 15.3429C15.0288 15.6577 14.7286 15.8525 14.3084 16.0161C13.9914 16.1397 13.5145 16.2858 12.6371 16.3258C11.6884 16.3694 11.4034 16.3781 9 16.3781C6.59733 16.3781 6.31236 16.3694 5.36365 16.3258ZM5.2895 0.0545234C4.33134 0.0981422 3.67706 0.250081 3.10493 0.472536C2.51317 0.702262 2.01155 1.0105 1.51066 1.51066C1.0105 2.01082 0.702262 2.51244 0.472536 3.10493C0.250081 3.67706 0.0981422 4.33134 0.0545234 5.2895C0.0101777 6.24911 0 6.5559 0 9C0 11.4441 0.0101777 11.7509 0.0545234 12.7105C0.0981422 13.6687 0.250081 14.3229 0.472536 14.8951C0.702262 15.4868 1.00977 15.9892 1.51066 16.4893C2.01082 16.9895 2.51244 17.297 3.10493 17.5275C3.67779 17.7499 4.33134 17.9019 5.2895 17.9455C6.24984 17.9891 6.5559 18 9 18C11.4448 18 11.7509 17.9898 12.7105 17.9455C13.6687 17.9019 14.3229 17.7499 14.8951 17.5275C15.4868 17.297 15.9885 16.9895 16.4893 16.4893C16.9895 15.9892 17.297 15.4868 17.5275 14.8951C17.7499 14.3229 17.9026 13.6687 17.9455 12.7105C17.9891 11.7502 17.9993 11.4441 17.9993 9C17.9993 6.5559 17.9891 6.24911 17.9455 5.2895C17.9019 4.33134 17.7499 3.67706 17.5275 3.10493C17.297 2.51317 16.9895 2.01155 16.4893 1.51066C15.9892 1.0105 15.4868 0.702262 14.8958 0.472536C14.3229 0.250081 13.6687 0.0974152 12.7112 0.0545234C11.7516 0.0109047 11.4448 0 9.00073 0C6.5559 0 6.24984 0.0101777 5.2895 0.0545234Z"
+                fill="#FFFFFF"
+              />
+            </svg>
+          </a>
+        </div>
+        <div class="social-media">
+          <a href="https://www.linkedin.com" target="_blank">
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 18 18"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 2.09091C0 1.48483 0.202708 0.984835 0.608108 0.590908C1.01351 0.196963 1.54055 0 2.18919 0C2.82626 0 3.34169 0.193927 3.73552 0.581817C4.14092 0.981817 4.34363 1.50302 4.34363 2.14545C4.34363 2.72727 4.14672 3.2121 3.7529 3.59999C3.3475 3.99999 2.81467 4.19999 2.15444 4.19999H2.13707C1.49999 4.19999 0.984562 3.99999 0.590734 3.59999C0.196905 3.19999 0 2.69696 0 2.09091ZM0.225869 18V5.85454H4.08301V18H0.225869ZM6.22008 18H10.0772V11.2182C10.0772 10.7939 10.1236 10.4666 10.2162 10.2363C10.3784 9.82422 10.6245 9.47573 10.9546 9.19089C11.2847 8.90604 11.6988 8.76362 12.1969 8.76362C13.4942 8.76362 14.1429 9.67877 14.1429 11.5091V18H18V11.0363C18 9.2424 17.5946 7.8818 16.7838 6.95453C15.973 6.02726 14.9016 5.56363 13.5695 5.56363C12.0753 5.56363 10.9112 6.23635 10.0772 7.58181V7.61817H10.0598L10.0772 7.58181V5.85454H6.22008C6.24324 6.24241 6.25483 7.44846 6.25483 9.47271C6.25483 11.4969 6.24324 14.3394 6.22008 18Z"
+                fill="#FFFFFF"
+              />
+            </svg>
+          </a>
+        </div>
+        <div class="social-media">
+          <a href="https://www.linkedin.com" target="_blank">
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 18 18"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M9.00745 0C4.02656 0 0 4.12498 0 9.22815C0 13.3074 2.57996 16.7604 6.15904 17.9825C6.60652 18.0744 6.77043 17.7839 6.77043 17.5396C6.77043 17.3257 6.75568 16.5924 6.75568 15.8283C4.25002 16.3784 3.72824 14.7283 3.72824 14.7283C3.32557 13.6588 2.72893 13.3839 2.72893 13.3839C1.90883 12.8186 2.78867 12.8186 2.78867 12.8186C3.69837 12.8797 4.17572 13.7658 4.17572 13.7658C4.98089 15.1713 6.27833 14.7742 6.8003 14.5297C6.87478 13.9338 7.11355 13.5213 7.36706 13.2922C5.36863 13.0783 3.26602 12.2838 3.26602 8.73915C3.26602 7.73078 3.6237 6.90578 4.19047 6.26416C4.10105 6.03504 3.7878 5.0876 4.28008 3.81955C4.28008 3.81955 5.04062 3.57505 6.75549 4.76679C7.48969 4.56479 8.24685 4.46203 9.00745 4.46117C9.76799 4.46117 10.5433 4.56823 11.2592 4.76679C12.9743 3.57505 13.7348 3.81955 13.7348 3.81955C14.2271 5.0876 13.9137 6.03504 13.8242 6.26416C14.4059 6.90578 14.7489 7.73078 14.7489 8.73915C14.7489 12.2838 12.6463 13.0629 10.6329 13.2922C10.9611 13.5824 11.2443 14.1324 11.2443 15.0033C11.2443 16.2408 11.2295 17.234 11.2295 17.5394C11.2295 17.7839 11.3936 18.0744 11.8409 17.9827C15.42 16.7602 18 13.3074 18 9.22815C18.0147 4.12498 13.9734 0 9.00745 0Z"
+                fill="#FFFFFF"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="row copyright">
+        <p>Copyright © 2024 Camila Rodrigues Campos</p>
+      </div>
+    </footer>
+    <script>
+      function showSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "flex";
+      }
+      function hideSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "none";
+      }
+    </script>
+  </body>
+</html>

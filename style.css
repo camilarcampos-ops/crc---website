@@ -1,0 +1,621 @@
+.hero {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 8rem;
+}
+
+.heroContainer {
+  display: inline-flex;
+  gap: 5rem;
+}
+
+.heroText {
+  display: flex;
+  flex-direction: column;
+  width: 633px;
+  justify-content: center;
+}
+
+.heroHeading {
+  font-size: 56px;
+  align-items: left;
+  margin-bottom: 3rem;
+}
+
+.heroDescription {
+  text-align: justify;
+  width: fit-content;
+  font-size: 16px;
+  margin-bottom: 3rem;
+}
+
+.buttonHero {
+  padding: 12px 24px;
+  background-color: var(--primary-500);
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  border: 1px solid;
+}
+
+.buttonHero:hover {
+  border: 1px solid;
+  border-color: #a43dff;
+  background-color: #f9f1ffe4;
+  color: #333333;
+  text-decoration: none;
+}
+
+.camila-photo {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.what-i-do {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 8rem 2rem;
+  gap: 4rem;
+  background-color: var(--gray-50);
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.h2WhatIdo {
+  color: #333333;
+  font-size: 36px;
+  width: 550px;
+}
+.text-wrapper-9 {
+  margin-top: -1rem;
+  font-weight: 400;
+  color: var(--gray-600);
+  font-size: 16px;
+  width: 550px;
+}
+
+.what-i-do-card {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: border-left 0.3s;
+  border-left: 6px solid transparent;
+}
+
+.what-i-do-card:hover {
+  border-left: 6px solid #a43dff;
+  box-shadow: 0 32px 96px #1b191929;
+}
+
+.card-title {
+  align-self: stretch;
+  margin-top: -1px;
+  color: var(--gray-900);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.card-description {
+  width: 584px;
+  color: var(--gray-700);
+  position: relative;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.portfolio {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6.25rem 0;
+}
+
+.rowPortfolio {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1.875rem;
+  margin-top: -0.875rem;
+  margin-bottom: 2rem;
+}
+
+.titlePort {
+  color: #333333;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.projects {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.project-cont-right,
+.project-cont-left {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 6px 64px #7090b01a;
+}
+
+.project-cont-right:hover {
+  box-shadow: 0 32px 96px #1b191929;
+}
+.project-cont-left:hover {
+  box-shadow: 0 32px 96px #1b191929;
+}
+.project-info {
+  position: relative;
+  width: 100%;
+  padding: 2rem 1rem;
+  background-color: var(--bg-white);
+}
+
+.project-title {
+  align-self: stretch;
+  margin-top: -1px;
+  font-weight: 700;
+  color: var(--font-high-emphasis);
+  font-size: 30px;
+}
+
+.project-description {
+  align-self: stretch;
+  font-weight: 400;
+  color: var(--font-medium-emphasis);
+  font-size: 16px;
+  line-height: 27px;
+  position: relative;
+  letter-spacing: 0;
+}
+
+.button-project {
+  display: inline-flex;
+  align-items: flex-start;
+  padding: 8px 24px;
+  position: relative;
+  flex: 0 0 auto;
+  border: 1px solid;
+  background-color: #a43dff;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+  max-width: 100%;
+  height: auto;
+}
+
+.button-project:hover {
+  border: 1px solid;
+  border-color: #a43dff;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.project-image {
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+  object-fit: cover;
+}
+.project-content {
+  display: flex;
+  flex-direction: column;
+  width: 407px;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.moreProjects {
+  margin-top: 1.25rem;
+}
+
+.work-process {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 8rem;
+  background-color: var(--gray-50);
+}
+
+.work-process-content {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.h2Work {
+  color: #333333;
+  font-size: 36px;
+  white-space: nowrap;
+}
+
+.work-process-sum {
+  position: relative;
+  width: 529px;
+  margin-top: -1px;
+  font-weight: var(--body-large-400-font-weight);
+  color: var(--gray-600);
+  font-size: var(--body-large-400-font-size);
+  letter-spacing: var(--body-large-400-letter-spacing);
+  line-height: var(--body-large-400-line-height);
+}
+
+.work-process-cards {
+  position: relative;
+  width: 679px;
+  height: 649px;
+}
+
+.work-process-card {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 300px;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background-color: var(--graywhite);
+  border-radius: 12px;
+  position: absolute;
+  transition: box-shadow 0.3s;
+}
+
+.work-process-card:hover {
+  box-shadow: 32px 32px 124px #2b374c1a;
+}
+
+.work-process-card:hover .work-process-icon {
+  background-color: var(--primary-500);
+}
+
+.work-process-card:hover svg path {
+  fill: white;
+}
+
+.work-process-card-1 {
+  top: 0;
+  left: 0;
+}
+
+.work-process-card-2 {
+  top: 331px;
+  left: 14px;
+}
+
+.work-process-card-3 {
+  top: 22px;
+  left: 359px;
+}
+
+.work-process-card-4 {
+  top: 355px;
+  left: 365px;
+}
+
+.work-process-icon {
+  padding: 20px;
+  position: relative;
+  border-radius: 6px;
+  background-color: #edd8ff80;
+  transition: background-color 0.3s;
+}
+
+.div-2 {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.work-process-stage {
+  margin-top: -5px;
+  font-weight: 600;
+  color: var(--gray-900);
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.stage-description {
+  width: 248px;
+  color: var(--gray-600);
+  font-size: 16px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6.25rem 0;
+}
+
+.contactBox {
+  display: flex;
+  padding: 4rem;
+  background-color: var(--graywhite);
+  border-radius: 15px;
+  box-shadow: 0 59px 124px #0000001f;
+}
+
+.lets-discuss-your {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.titleContact {
+  align-self: stretch;
+  margin-top: -1px;
+  font-weight: 500;
+  color: var(--gray-900);
+  font-size: 36px;
+}
+
+.infoForm {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  background-color: var(--primary-500);
+  border-radius: 4px;
+  color: white;
+  border: 2px solid transparent;
+}
+
+input[type="submit"]:hover {
+  border-color: #a43dff;
+  background-color: #f9f1ffe4;
+  color: #333333;
+  text-decoration: none;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+@media (max-width: 800px) {
+  .heroHeading {
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+
+  .hero {
+    padding: 2rem 2rem;
+  }
+
+  .heroContainer {
+    width: 90%;
+  }
+
+  .heroDescription {
+    width: fit-content;
+    font-size: 12px;
+    margin-bottom: 2rem;
+  }
+
+  .buttonHero {
+    font-size: 14px;
+  }
+
+  .what-i-do {
+    flex-direction: column;
+    padding: 4rem 3rem;
+    gap: 1.5rem;
+  }
+
+  .h2WhatIdo {
+    font-size: 24px;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .text-wrapper-9,
+  .card-description {
+    width: auto;
+    font-size: 12px;
+  }
+
+  .what-i-do-card {
+    padding: 1.5rem;
+  }
+
+  .portfolio {
+    padding: 4rem 3rem;
+  }
+
+  .rowPortfolio {
+    margin-bottom: 1rem;
+  }
+
+  .titlePort {
+    font-size: 24px;
+  }
+
+  .projects {
+    gap: 2rem;
+  }
+
+  .project-cont-right,
+  .project-cont-left {
+    flex-direction: column;
+  }
+
+  .project-image {
+    display: none;
+  }
+
+  .project-content {
+    width: auto;
+    gap: 1rem;
+  }
+
+  .project-title {
+    font-size: 1rem;
+  }
+
+  .project-description {
+    font-size: 12px;
+    margin-block-start: 0.5rem;
+    margin-block-end: 0.5rem;
+  }
+
+  .button-project {
+    font-size: 14px;
+  }
+
+  .moreProjects {
+    margin-top: 0.5rem;
+  }
+
+  .contact {
+    padding: 2rem 3rem;
+  }
+
+  .lets-discuss-your {
+    gap: 1rem;
+  }
+
+  .titleContact {
+    font-size: 24px;
+  }
+
+  input[type="text"],
+  select,
+  textarea {
+    font-size: 12px;
+  }
+
+  input[type="submit"] {
+    font-size: 14px;
+  }
+
+  .work-process {
+    padding: 2rem 3rem;
+  }
+
+  .h2Work {
+    font-size: 24px;
+  }
+
+  .work-process-sum,
+  .stage-description {
+    font-size: 12px;
+    width: 100%;
+  }
+
+  .work-process-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .work-process-cards {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .work-process-card {
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-bottom: 2rem;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .work-process-card-1,
+  .work-process-card-2,
+  .work-process-card-3,
+  .work-process-card-4 {
+    position: relative;
+    left: auto;
+    top: auto;
+  }
+
+  .copy {
+    gap: 1rem;
+  }
+
+  .work-process-icon {
+    padding: 0.5rem;
+  }
+
+  .work-process-icon svg {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroImg {
+    display: none;
+  }
+  .contactBox {
+    padding: 2rem;
+  }
+  .titleContact {
+    font-size: 20px;
+  }
+}

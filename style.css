@@ -1,3 +1,10 @@
+body {
+  background-image: url(img/bg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .hero {
   width: 100%;
   display: flex;
@@ -108,11 +115,9 @@
 }
 
 .card-title {
-  align-self: stretch;
-  margin-top: -1px;
   color: var(--gray-900);
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .card-description {
@@ -134,6 +139,41 @@
   padding: 6.25rem 0;
 }
 
+.socialLinks {
+  margin: 4rem 0 0;
+  --bs-gutter-x: none;
+}
+
+.socialName {
+  background-color: rgb(246, 234, 252);
+  text-align: center;
+  justify-content: center;
+  padding: 1.5rem 1rem;
+  border: 1px solid;
+  border-color: white;
+}
+.socialName p {
+  margin: 0.5rem 0 0;
+}
+.socialName a {
+  text-decoration: none;
+  color: var(--gray-700);
+}
+
+.socialName a svg {
+  width: 24px;
+  height: 24px;
+}
+
+.socialName:hover {
+  background-color: #ccc;
+  border: 1px solid;
+  border-color: white;
+}
+.socialLinks a:hover {
+  text-decoration: underline;
+}
+
 .rowPortfolio {
   display: flex;
   flex-direction: column;
@@ -147,7 +187,7 @@
 
 .titlePort {
   color: #333333;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 50px;
 }
 
@@ -184,11 +224,9 @@
 }
 
 .project-title {
-  align-self: stretch;
-  margin-top: -1px;
-  font-weight: 700;
+  font-weight: 500;
   color: var(--font-high-emphasis);
-  font-size: 30px;
+  font-size: 24px;
 }
 
 .project-description {

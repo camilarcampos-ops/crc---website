@@ -35,11 +35,11 @@
 
 body {
   min-height: 100vh;
-  background-image: url(img/bg.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: "Work Sans", sans-serif;
+  font-family: "DM Sans", sans-serif;
+}
+
+p {
+  font-family: "DM Sans", sans-serif;
 }
 
 h1,
@@ -48,7 +48,7 @@ h3,
 h4,
 h5,
 button {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 nav {
   background-color: var(--graywhite);

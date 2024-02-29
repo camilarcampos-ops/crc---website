@@ -3,6 +3,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .hero {
@@ -137,6 +138,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 6.25rem 0;
+  flex-wrap: wrap;
 }
 
 .socialLinks {
@@ -288,6 +290,7 @@ body {
   justify-content: center;
   padding: 6rem 8rem;
   background-color: var(--gray-50);
+  flex-wrap: wrap;
 }
 
 .work-process-content {
@@ -469,7 +472,7 @@ input[type="submit"]:hover {
   padding: 20px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .heroHeading {
     font-size: 24px;
     margin-bottom: 1rem;

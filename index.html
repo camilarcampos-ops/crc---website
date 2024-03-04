@@ -409,16 +409,21 @@
             <h2 class="titleContact">Let’s discuss your project!</h2>
           </div>
           <div class="infoForm">
-            <form action="mailto:cami.rcampos@gmail.com">
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input
+                type="hidden"
+                name="access_key"
+                value="b377294e-3eac-41a7-982d-c05aede0cb4b"
+              />
               <input
                 type="text"
-                id="fname"
-                name="firstname"
+                id="name"
+                name="Name"
                 placeholder="Name"
                 required
               />
               <input
-                type="text"
+                type="email"
                 id="email"
                 name="email"
                 placeholder="Email"
@@ -431,7 +436,7 @@
                 placeholder="Message"
                 required
               ></textarea>
-              <input type="submit" value="Submit" />
+              <input type="submit" value="Send" />
             </form>
           </div>
         </div>

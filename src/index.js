@@ -8,7 +8,7 @@ function hideSidebar() {
 }
 
 new Typewriter("#titleHero", {
-  strings: ["Hi there, I’m <br/ > Camila Rodrigues Campos"],
+  strings: "Hi there, I’m <br/ > Camila Rodrigues Campos",
   autoStart: true,
   cursor: null,
   delay: 50,

@@ -1,7 +1,6 @@
 :root {
   --background-color: #ffffff;
   --display: flex;
-  --flex-direction: row;
   --justify-content: center;
   --width: 100%;
   --graywhite: rgba(255, 255, 255, 1);
@@ -35,20 +34,16 @@
 
 body {
   min-height: 100vh;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
-p {
-  font-family: "DM Sans", sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
+p,
 button {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-weight: 700;
 }
 nav {
   background-color: var(--graywhite);

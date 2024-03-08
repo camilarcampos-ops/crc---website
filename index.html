@@ -16,6 +16,7 @@
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -103,8 +104,8 @@
     <section class="hero" id="aboutMe">
       <div class="heroContainer">
         <div class="heroText">
-          <h1 class="heroHeading">
-            Hi there, I’m<br />Camila Rodrigues Campos
+          <h1 class="heroHeading" id="titleHero">
+            Hi there, <br />I’m Camila Rodrigues Campos
           </h1>
           <p class="heroDescription">
             I&#39;m a Marketing Specialist and Front End Developer based in
@@ -112,10 +113,10 @@
             remarkable online presence. I create websites and communications
             that build connections, drive conversions and build your business.
           </p>
-          <div class="bttnJustLeft">
-            <a href="#" class="buttonHero">Hire Me!</a>
+          <div>
+            <a href="/contact.html" class="buttonHero">Hire Me!</a>
           </div>
-          <div class="row socialLinks">
+          <div class="socialLinks">
             <div class="col-md-3 socialName">
               <a href="doc/Resume_Camila Rodrigues Campos.pdf">
                 <svg
@@ -205,41 +206,44 @@
     </section>
 
     <section class="what-i-do" id="services">
-      <div class="copy">
-        <h2 class="h2WhatIdo">What do I do?</h2>
-        <p class="text-wrapper-9">
-          Help entrepreneurs and self-employed professionals leverage the
-          results of their businesses through digital marketing.
-        </p>
-      </div>
-      <div class="copy">
-        <div class="what-i-do-card">
-          <h3 class="card-title">Web Design and Development</h3>
-          <p class="card-description">
-            Development of exclusive websites that are adapted to desktop,
-            mobile, and tablet. The main objective is to improve the user
-            experience, delivering an optimal view, and fast-loading pages.
-            Combine with a stand-out design that will convert more sales.
+      <div class="row">
+        <div class="col-md-6 left-col">
+          <h2 class="h2WhatIdo">What do I do?</h2>
+          <p class="what-descprition">
+            Help entrepreneurs and self-employed professionals leverage the
+            results of their businesses through digital marketing.
           </p>
         </div>
-        <div class="what-i-do-card">
-          <h3 class="card-title">SEO</h3>
-          <p class="card-description">
-            Your brand appears among the main search results in an effective
-            way, bringing qualified customers to your website – once they are
-            looking for a product or service that your company offers. I
-            optimize your content with SEO to improve the positioning of your
-            pages in search engines, such as Google, and conquer the first
-            places in organic (unpaid) search results.
-          </p>
-        </div>
-        <div class="what-i-do-card">
-          <h3 class="card-title">Branding</h3>
-          <p class="card-description">
-            Branding is the set of actions that communicate a company’s unique
-            identity and its values to customers. The purpose of branding is to
-            arouse sensations and create connections in the minds of customers.
-          </p>
+        <div class="col-md-6 right-col">
+          <div class="what-i-do-card">
+            <h3 class="card-title">Web Design and Development</h3>
+            <p class="card-description">
+              Development of exclusive websites that are adapted to desktop,
+              mobile, and tablet. The main objective is to improve the user
+              experience, delivering an optimal view, and fast-loading pages.
+              Combine with a stand-out design that will convert more sales.
+            </p>
+          </div>
+          <div class="what-i-do-card">
+            <h3 class="card-title">SEO</h3>
+            <p class="card-description">
+              Your brand appears among the main search results in an effective
+              way, bringing qualified customers to your website – once they are
+              looking for a product or service that your company offers. I
+              optimize your content with SEO to improve the positioning of your
+              pages in search engines, such as Google, and conquer the first
+              places in organic (unpaid) search results.
+            </p>
+          </div>
+          <div class="what-i-do-card">
+            <h3 class="card-title">Branding</h3>
+            <p class="card-description">
+              Branding is the set of actions that communicate a company’s unique
+              identity and its values to customers. The purpose of branding is
+              to arouse sensations and create connections in the minds of
+              customers.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -523,15 +527,6 @@
         <p>Copyright © 2024 Camila Rodrigues Campos</p>
       </div>
     </footer>
-    <script>
-      function showSidebar() {
-        const sidebar = document.querySelector(".sidebar");
-        sidebar.style.display = "flex";
-      }
-      function hideSidebar() {
-        const sidebar = document.querySelector(".sidebar");
-        sidebar.style.display = "none";
-      }
-    </script>
+    <script src="/src/index.js"></script>
   </body>
 </html>

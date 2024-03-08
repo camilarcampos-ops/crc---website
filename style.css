@@ -27,8 +27,7 @@ body {
 }
 
 .heroHeading {
-  font-size: 56px;
-  align-items: left;
+  font-size: 60px;
   margin-bottom: 3rem;
 }
 
@@ -40,9 +39,9 @@ body {
 }
 
 .buttonHero {
-  padding: 12px 24px;
+  padding: 16px 24px;
   background-color: var(--primary-500);
-  border-radius: 4px;
+  border-radius: 6px;
   color: white;
   text-decoration: none;
   font-weight: 600;
@@ -60,98 +59,23 @@ body {
 
 .camila-photo {
   width: 100%;
-  height: auto;
   object-fit: cover;
-}
-
-.what-i-do {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  padding: 8rem 2rem;
-  gap: 4rem;
-  background-color: var(--gray-50);
-}
-
-.copy {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 2rem;
-}
-
-.h2WhatIdo {
-  color: #333333;
-  font-size: 36px;
-  width: 550px;
-}
-.text-wrapper-9 {
-  margin-top: -1rem;
-  font-weight: 400;
-  color: var(--gray-600);
-  font-size: 16px;
-  width: 550px;
-}
-
-.what-i-do-card {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 1rem;
-  padding: 2rem;
-  background-color: #ffffff;
-  border-radius: 6px;
-  overflow: hidden;
-  transition: border-left 0.3s;
-  border-left: 6px solid transparent;
-}
-
-.what-i-do-card:hover {
-  border-left: 6px solid #a43dff;
-  box-shadow: 0 32px 96px #1b191929;
-}
-
-.card-title {
-  color: var(--gray-900);
-  font-size: 24px;
-  font-weight: 500;
-}
-
-.card-description {
-  width: 584px;
-  color: var(--gray-700);
-  position: relative;
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 0;
-  line-height: 24px;
-}
-
-.portfolio {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 6.25rem 0;
-  flex-wrap: wrap;
 }
 
 .socialLinks {
   margin: 4rem 0 0;
   --bs-gutter-x: none;
+  gap: 0.2rem;
+  display: flex;
 }
 
 .socialName {
   background-color: rgb(246, 234, 252);
   text-align: center;
-  justify-content: center;
-  padding: 1.5rem 1rem;
+  padding: 1rem 0;
   border: 1px solid;
-  border-color: white;
+  border-color: rgb(246, 234, 252);
+  border-radius: 8px;
 }
 .socialName p {
   margin: 0.5rem 0 0;
@@ -167,12 +91,89 @@ body {
 }
 
 .socialName:hover {
-  background-color: #ccc;
+  background-color: #a43dff;
   border: 1px solid;
   border-color: white;
 }
-.socialLinks a:hover {
-  text-decoration: underline;
+.socialName:hover a {
+  color: white;
+}
+.socialName:hover svg path {
+  fill: white;
+}
+
+.what-i-do {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 8rem;
+  background-color: rgba(240, 241, 243, 1);
+}
+
+row {
+  justify-content: center;
+  align-items: center;
+}
+.left-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 80px;
+  padding-left: 50px;
+}
+
+.h2WhatIdo {
+  color: #333333;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 5%;
+}
+
+.what-descprition {
+  font-weight: 400;
+  color: rgba(85, 96, 112, 1);
+  font-size: 16px;
+  padding-right: 100px;
+}
+
+.right-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 2rem;
+  padding: 3rem;
+}
+.what-i-do-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: border-left 0.3s;
+  transition: all 150ms ease-in-out;
+  border-left: 6px solid transparent;
+}
+
+.what-i-do-card:hover {
+  border-left: 6px solid #a43dff;
+  box-shadow: 0 32px 96px #1b191929;
+  transform: scale(1.1);
+}
+
+.card-title {
+  font-weight: 600;
+  margin-bottom: 2%;
+  font-size: 24px;
+}
+
+.portfolio {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6.25rem 0;
+  flex-wrap: wrap;
 }
 
 .rowPortfolio {
@@ -188,7 +189,6 @@ body {
 
 .titlePort {
   color: #333333;
-  font-weight: 500;
   font-size: 50px;
 }
 
@@ -211,12 +211,11 @@ body {
   box-shadow: 0 6px 64px #7090b01a;
 }
 
-.project-cont-right:hover {
-  box-shadow: 0 32px 96px #1b191929;
-}
+.project-cont-right:hover,
 .project-cont-left:hover {
   box-shadow: 0 32px 96px #1b191929;
 }
+
 .project-info {
   position: relative;
   width: 100%;
@@ -225,7 +224,6 @@ body {
 }
 
 .project-title {
-  font-weight: 500;
   color: var(--font-high-emphasis);
   font-size: 24px;
 }
@@ -472,7 +470,7 @@ input[type="submit"]:hover {
   padding: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .heroHeading {
     font-size: 24px;
     margin-bottom: 1rem;
@@ -497,9 +495,16 @@ input[type="submit"]:hover {
   }
 
   .what-i-do {
-    flex-direction: column;
-    padding: 4rem 3rem;
-    gap: 1.5rem;
+    padding: 2rem 2rem;
+  }
+
+  .left-col {
+    padding: 1rem 3rem;
+  }
+
+  .right-col {
+    row-gap: 1rem;
+    padding: 1rem 3rem;
   }
 
   .h2WhatIdo {
@@ -510,10 +515,11 @@ input[type="submit"]:hover {
     font-size: 16px;
   }
 
-  .text-wrapper-9,
+  .what-descprition,
   .card-description {
     width: auto;
     font-size: 12px;
+    padding-right: 0;
   }
 
   .what-i-do-card {
@@ -647,9 +653,19 @@ input[type="submit"]:hover {
     width: 16px;
     height: 16px;
   }
+
+  .socialLinks {
+    margin: 2rem 0 0;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .socialName {
+    display: none;
+  }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .heroImg {
     display: none;
   }

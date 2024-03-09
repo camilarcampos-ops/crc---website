@@ -209,6 +209,7 @@ row {
   border-radius: 24px;
   overflow: hidden;
   box-shadow: 0 6px 64px #7090b01a;
+  background-color: var(--graywhite);
 }
 
 .project-cont-right:hover,
@@ -408,7 +409,6 @@ row {
   border-radius: 15px;
   box-shadow: 0 59px 124px #0000001f;
 }
-
 .lets-discuss-your {
   display: inline-flex;
   flex-direction: column;
@@ -462,6 +462,15 @@ input[type="submit"]:hover {
   background-color: #f9f1ffe4;
   color: #333333;
   text-decoration: none;
+}
+
+.talkIcon {
+  margin-left: -60px;
+  margin-bottom: -50px;
+}
+.talkIcon svg {
+  height: 200px;
+  width: auto;
 }
 
 .container {
@@ -663,6 +672,15 @@ input[type="submit"]:hover {
   .socialName {
     display: none;
   }
+
+  .talkIcon {
+    margin-left: -80px;
+    margin-bottom: -20px;
+  }
+  .talkIcon svg {
+    height: 100px;
+    width: auto;
+  }
 }
 
 @media (max-width: 768px) {
@@ -674,5 +692,8 @@ input[type="submit"]:hover {
   }
   .titleContact {
     font-size: 20px;
+  }
+  .talkIcon {
+    display: none;
   }
 }

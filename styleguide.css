@@ -205,6 +205,21 @@ footer a:hover {
   color: aliceblue;
 }
 
+.slide-in-left {
+  animation: slide-in-left 2s ease-out both;
+}
+
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 @media (max-width: 768px) {
   .hideOnMobile {
     display: none;

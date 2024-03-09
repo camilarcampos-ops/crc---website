@@ -3,28 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/webp" href="img/favicon-crc.webp" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Camila Rodrigues is a marketing professional and front-end developer based in Canada,contact her to create your project."
+      content="Camila Rodrigues is a front-end developer based in Canada, check out her projects and contact her for job inquiries"
     />
-    <link rel="icon" type="image/webp" href="img/favicon-crc.webp" />
-    <title>Contact - Camila Rodrigues Campos</title>
+    <title>Contact- Camila Rodrigues Campos</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styleguide.css" />
     <link rel="stylesheet" href="css/contact.css" />
   </head>
+
   <body>
     <nav>
       <ul class="sidebar">
@@ -99,38 +101,55 @@
       </ul>
     </nav>
 
-    <section class="heroContact">
-      <div class="container">
-        <div class="row">
-          <a href="/">Back to Home</a>
-          <h1 class="h1Contact">Contact Me</h1>
+    <div class="container">
+      <div class="justify-content-center bgContact">
+        <div class="contactBox">
+          <div class="copyContact">
+            <h1>Let’s discuss your project! 🚀</h1>
+            <p>
+              Whether you're bursting with questions, ideas, or just want to say
+              hello, we're here to listen. Simply fill out the form below, and
+              we'll get back to you faster than you can say "creativity
+              unleashed."
+            </p>
+          </div>
+          <div class="infoForm">
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input
+                type="hidden"
+                name="access_key"
+                value="b377294e-3eac-41a7-982d-c05aede0cb4b"
+              />
+              <label for="name">Your Name:</label><br />
+              <input
+                type="text"
+                id="name"
+                name="Name"
+                placeholder="Type your full name.."
+                required
+              />
+              <label for="email">Your Email:</label><br />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email..."
+                required
+              />
+              <label for="message">Message:</label><br />
+              <textarea
+                id="text"
+                name="message"
+                style="height: 50px"
+                placeholder=" Tell me more about your project or business..."
+                required
+              ></textarea>
+              <input type="submit" class="primary-link" value="Submit" />
+            </form>
+          </div>
         </div>
       </div>
-    </section>
-
-    <section class="heroForm">
-      <div class="container">
-        <div class="row">
-          <h2 class="h2Contact">Craft Your Dream Project with Me!</h2>
-        </div>
-        <form>
-          <input
-            type="text"
-            id="fname"
-            name="firstname"
-            placeholder="Your Name"
-          />
-          <input type="text" id="email" name="email" placeholder="Your Email" />
-          <textarea
-            id="text"
-            name="subject"
-            style="height: 50px"
-            placeholder="Tell me about your project..."
-          ></textarea>
-          <input type="submit" value="Submit" />
-        </form>
-      </div>
-    </section>
+    </div>
 
     <footer>
       <ul>
@@ -143,7 +162,7 @@
             />
           </a>
         </li>
-        <li><a href="/aboutMe" title="About Camila Rodrigues">About</a></li>
+        <li><a href="/#aboutMe" title="About Camila Rodrigues">About</a></li>
         <li>
           <a href="/#portfolio" title="Portfolio Camila Rodrigues">Portfolio</a>
         </li>
@@ -210,15 +229,6 @@
         <p>Copyright © 2024 Camila Rodrigues Campos</p>
       </div>
     </footer>
-    <script>
-      function showSidebar() {
-        const sidebar = document.querySelector(".sidebar");
-        sidebar.style.display = "flex";
-      }
-      function hideSidebar() {
-        const sidebar = document.querySelector(".sidebar");
-        sidebar.style.display = "none";
-      }
-    </script>
+    <script src="/src/index.js"></script>
   </body>
 </html>

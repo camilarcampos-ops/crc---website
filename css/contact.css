@@ -1,2 +1,79 @@
-.heroContact {
+.container {
+  margin: 100px auto;
+  padding: 0;
+}
+
+.bgContact {
+  background-image: url(/img/back-contact.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 400px 0 0;
+  border-radius: 15px;
+  box-shadow: 0 59px 124px #0000001f;
+  margin: 50px 100px;
+}
+.contactBox {
+  display: block;
+  padding: 3rem;
+  background-color: var(--graywhite);
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+}
+
+.infoForm,
+.copyContact {
+  width: 80%;
+}
+
+h1,
+p {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  resize: vertical;
+  border: 2px solid rgb(235, 235, 235);
+  border-radius: 15px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: 2px solid transparent;
+}
+@media (max-width: 1010px) {
+  .bgContact {
+    padding: 0 150px 0 0;
+  }
+  .infoForm,
+  .copyContact {
+    width: 100%;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  .contactBox {
+    padding: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    margin: 50px auto;
+  }
+  .bgContact {
+    margin: auto 2rem;
+    padding: 0 40px 0 0;
+  }
 }

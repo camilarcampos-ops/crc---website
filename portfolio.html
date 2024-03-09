@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/webp" href="img/favicon-crc.webp" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Camila Rodrigues is a marketing professional and front-end developer based in Canada,check out more of her projects."
+      content="Camila Rodrigues is a front-end developer based in Canada, check out her projects and contact her for job inquiries"
     />
-    <link rel="icon" type="image/webp" href="img/favicon-crc.webp" />
     <title>Portfolio - Camila Rodrigues Campos</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
@@ -16,15 +16,17 @@
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styleguide.css" />
-    <link rel="stylesheet" href="css/portfolio.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <nav>
       <ul class="sidebar">
@@ -110,7 +112,7 @@
             />
           </a>
         </li>
-        <li><a href="/aboutMe" title="About Camila Rodrigues">About</a></li>
+        <li><a href="/#aboutMe" title="About Camila Rodrigues">About</a></li>
         <li>
           <a href="/#portfolio" title="Portfolio Camila Rodrigues">Portfolio</a>
         </li>
@@ -177,15 +179,6 @@
         <p>Copyright © 2024 Camila Rodrigues Campos</p>
       </div>
     </footer>
-    <script>
-      function showSidebar() {
-        const sidebar = document.querySelector(".sidebar");
-        sidebar.style.display = "flex";
-      }
-      function hideSidebar() {
-        const sidebar = document.querySelector(".sidebar");
-        sidebar.style.display = "none";
-      }
-    </script>
+    <script src="/src/index.js"></script>
   </body>
 </html>

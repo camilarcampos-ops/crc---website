@@ -1,0 +1,26 @@
+:root {
+  --primary-color: rgba(99, 37, 153, 1);
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.primary-link:hover {
+  background-color: var(--secondary-color);
+  border-color: var(--primary-color);
+  border-radius: 6px;
+  color: var(--primary-color);
+  border: 2px solid;
+}
+
+@media (max-width: 900px) {
+}

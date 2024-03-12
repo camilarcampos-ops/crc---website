@@ -28,14 +28,15 @@ body {
 
 .heroHeading {
   font-size: 60px;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .heroDescription {
   text-align: justify;
   width: fit-content;
   font-size: 16px;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+  width: 85%;
 }
 
 .buttonHero {
@@ -51,8 +52,8 @@ body {
 
 .buttonHero:hover {
   border: 1px solid;
-  border-color: #a43dff;
-  background-color: #f9f1ffe4;
+  border-color: rgba(99, 37, 153, 1);
+  background-color: #f5f2fe;
   color: #333333;
   text-decoration: none;
 }
@@ -63,18 +64,19 @@ body {
 }
 
 .socialLinks {
-  margin: 4rem 0 0;
+  margin-bottom: 2rem;
   --bs-gutter-x: none;
   gap: 0.2rem;
   display: flex;
+  width: 80%;
 }
 
 .socialName {
-  background-color: rgb(246, 234, 252);
+  background-color: #f5f2fe;
   text-align: center;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   border: 1px solid;
-  border-color: rgb(246, 234, 252);
+  border-color: #f5f2fe;
   border-radius: 8px;
 }
 .socialName p {
@@ -86,12 +88,12 @@ body {
 }
 
 .socialName a svg {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
 }
 
 .socialName:hover {
-  background-color: #a43dff;
+  background-color: rgba(99, 37, 153, 1);
   border: 1px solid;
   border-color: white;
 }
@@ -99,7 +101,7 @@ body {
   color: white;
 }
 .socialName:hover svg path {
-  fill: white;
+  fill: #f5f2fe;
 }
 
 .what-i-do {
@@ -155,7 +157,7 @@ row {
 }
 
 .what-i-do-card:hover {
-  border-left: 6px solid #a43dff;
+  border-left: 6px solid rgba(99, 37, 153, 1);
   box-shadow: 0 32px 96px #1b191929;
   transform: scale(1.1);
 }
@@ -220,7 +222,7 @@ row {
 .project-info {
   position: relative;
   width: 100%;
-  padding: 2rem 1rem;
+  padding: 2rem 1rem 2rem 2rem;
   background-color: var(--bg-white);
 }
 
@@ -246,7 +248,7 @@ row {
   position: relative;
   flex: 0 0 auto;
   border: 1px solid;
-  background-color: #a43dff;
+  background-color: rgba(99, 37, 153, 1);
   color: #ffffff;
   text-decoration: none;
   font-weight: 500;
@@ -258,16 +260,13 @@ row {
 
 .button-project:hover {
   border: 1px solid;
-  border-color: #a43dff;
-  background-color: #ffffff;
+  border-color: rgba(99, 37, 153, 1);
+  background-color: #f5f2fe;
   color: #333333;
 }
 
 .project-image {
-  position: relative;
-  flex: 1;
-  align-self: stretch;
-  flex-grow: 1;
+  width: 100%;
   object-fit: cover;
 }
 .project-content {
@@ -334,7 +333,9 @@ row {
   position: absolute;
   transition: box-shadow 0.3s;
 }
-
+.work-process-icon svg path {
+  fill: var(--primary-500);
+}
 .work-process-card:hover {
   box-shadow: 32px 32px 124px #2b374c1a;
 }
@@ -371,7 +372,7 @@ row {
   padding: 20px;
   position: relative;
   border-radius: 6px;
-  background-color: #edd8ff80;
+  background-color: #f5f2fe;
   transition: background-color 0.3s;
 }
 
@@ -458,18 +459,18 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  border-color: #a43dff;
-  background-color: #f9f1ffe4;
+  border-color: var(--primary-500);
+  background-color: #f5f2fe;
   color: #333333;
   text-decoration: none;
 }
 
 .talkIcon {
-  margin-left: -60px;
+  margin-left: -80px;
   margin-bottom: -50px;
 }
 .talkIcon svg {
-  height: 200px;
+  height: 180px;
   width: auto;
 }
 

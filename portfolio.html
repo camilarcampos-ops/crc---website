@@ -17,6 +17,7 @@
       crossorigin="anonymous"
     />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -103,201 +104,415 @@
       </ul>
     </nav>
 
-    <div class="container about-me">
-      <div class="content">
-        <h1 class="mb-5 portfolio-h1">
-          Take a look at what I've been working on!
-        </h1>
-
-        <div class="grid grid-3-columns">
-          <div class="card">
-            <div class="card-header">
-              <img
-                src="img/ai-recipe-generator.webp"
-                class="img-fluid mb-3 rounded"
-                alt="AI Recipe Generators preview"
-              />
-            </div>
-
-            <div class="card-body">
-              <h3>AI Recipe Generator</h3>
-              <p>
-                Phuket province is located in southern Thailand. It is the
-                biggest Island of Thailand and sits on the Andaman sea. The
-                nearest province to the north is Phang-nga and the nearest
-                provinces to the east are Phang-nga and Krabi.
-              </p>
-              <h5>Key Tips</h5>
-              <p>
-                The Beaches of the south coast are typically crowded, while the
-                north is far more tranquil.All the major Beaches (such as Patong
-                beach, Kata beach, Karon Beach, Nai Han beach, Mai Khao beach,
-                Nai Yang beach) offer instruction and equipment for diving,
-                Snorkelling, windsurfing and sailing. Don't forget to notice the
-                red flag! before swim.
-              </p>
-            </div>
-            <div class="card-footer">
-              <a
-                href="https://www.tourismthailand.org/Destinations/Provinces/Phuket/350"
-                class="btn"
-                target="_blank"
-              >
-                Learn more
-              </a>
-            </div>
+    <section class="frontend">
+      <h2>Front-end projects</h2>
+      <div class="grid grid-3-columns">
+        <div class="card">
+          <div class="card-header">
+            <img
+              src="img/Dictionary.webp"
+              alt="Dictionary App"
+              class="img-responsive"
+            />
           </div>
-          <div class="card">
-            <div class="card-header">
-              <img src="images/norway.webp" alt="" class="img-responsive" />
-            </div>
 
-            <div class="card-body">
-              <h4>Tromsø, Norway</h4>
-              <p>
-                Located in an active solar area, at the centre of the Northern
-                Light’s oval, Tromsø in Norway is a popular destination for
-                aurora chasers for good reason. The city, which is above the
-                Arctic Circle, has one of the highest probabilities of spotting
-                the lights in the world.
-              </p>
-              <h5>Key Tips</h5>
-              <p>
-                The best bet to see the dancing lights here is to join a
-                Northern Lights tour where expert aurora chasers follow the
-                latest reports of solar flares in a bid to spot them — some
-                operators even offer a second tour free if the lights were too
-                shy to show up on the first try.
-              </p>
-            </div>
-            <div class="card-footer">
-              <a
-                href="https://www.visitnorway.com/places-to-go/northern-norway/tromso/"
-                class="btn"
-                target="_blank"
-              >
-                Learn more
-              </a>
-            </div>
+          <div class="card-body">
+            <h4>Dictionary App</h4>
+            <p>Built using HTML, an active API, advanced CSS, and React.</p>
           </div>
-          <div class="card">
-            <div class="card-header">
-              <img
-                src="images/cape-town.jpeg"
-                alt="Cape Town, South Africa"
-                class="img-responsive"
-              />
-            </div>
-
-            <div class="card-body">
-              <h4>Cape Town, South Africa</h4>
-              <p>
-                Cape Town is a modern, cosmopolitan city surrounded by nature.
-                Centred around Table Mountain, one of the New 7 Wonders of the
-                world, the Mother City is known for its beautiful beaches,
-                stunning biodiversity, award-winning food and wine, and sheer
-                variety of experiences on offer.
-              </p>
-              <h5>Key Tips</h5>
-              <p>
-                The best time to visit in terms of climate and game viewing is
-                during the dry season (from about late May to October). The
-                rainy summer season is a time of newborn antelope, lush green
-                views and sensational bird watching.
-              </p>
-            </div>
-            <div class="card-footer">
-              <a
-                href="https://www.capetown.travel/"
-                class="btn"
-                target="_blank"
-              >
-                Learn more
-              </a>
-            </div>
+          <div class="card-footer">
+            <a
+              href="https://worldclock-camilaapps.netlify.app/"
+              class="btn"
+              target="_blank"
+            >
+              Launch Project
+            </a>
           </div>
         </div>
-
-        <div class="row">
-          <div class="col-md-6 mb-4">
+        <div class="card">
+          <div class="card-header">
             <img
               src="img/ai-recipe-generator.webp"
-              class="img-fluid mb-3 rounded"
-              alt="AI Recipe Generators preview"
+              alt="Ai Recipe Generator"
+              class="img-responsive"
             />
-            <h3 class="text-center m-0">AI Recipe Generator</h3>
-            <p class="text-center text-muted">
-              Built using HTML, an active API, and advanced CSS and JavaScript
-            </p>
-            <div class="text-center mt-4 mb-5">
-              <a
-                href="https://airecipegenerator-crc.netlify.app/"
-                class="primary-link"
-                target="_blank"
-                >Launch Project</a
-              >
-            </div>
           </div>
-          <div class="col-md-6 mb-4">
+
+          <div class="card-body">
+            <h4>AI Recipe Generator</h4>
+            <p>
+              Built using HTML, an active API, advanced CSS, and JavaScript.
+            </p>
+          </div>
+          <div class="card-footer">
+            <a
+              href="https://airecipegenerator-crc.netlify.app/"
+              class="btn"
+              target="_blank"
+            >
+              Launch Project
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
             <img
               src="img/weather-app2.webp"
-              class="img-fluid mb-3 rounded"
-              alt="Weather project preview"
+              alt="Weather App"
+              class="img-responsive"
             />
-            <h3 class="text-center m-0">Weather App</h3>
-            <p class="text-center text-muted">
-              Built using HTML, an active API, advanced CSS, and React
-            </p>
-            <div class="text-center mt-4 mb-5">
-              <a
-                href="https://weather-react-camilarcampos.netlify.app/"
-                class="primary-link"
-                target="_blank"
-                >Launch Project</a
-              >
-            </div>
           </div>
-          <div class="col-md-6 mb-4">
+
+          <div class="card-body">
+            <h4>Weather App</h4>
+            <p>Built using HTML, an active API, advanced CSS, and React.</p>
+          </div>
+          <div class="card-footer">
+            <a
+              href="https://weather-react-camilarcampos.netlify.app/"
+              class="btn"
+              target="_blank"
+            >
+              Launch Project
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
             <img
               src="img/word-clock.webp"
-              class="img-fluid mb-3 rounded"
-              alt="World Clock project preview"
+              alt="World Clock App"
+              class="img-responsive"
             />
-            <h3 class="text-center m-0">World Clock App</h3>
-            <p class="text-center text-muted">
-              Built using HTML, an active API, and advanced CSS and JavaScript
-            </p>
-            <div class="text-center mt-4 mb-5">
-              <a
-                href="https://worldclock-camilaapps.netlify.app/"
-                class="primary-link"
-                target="_blank"
-                >Launch Project</a
-              >
-            </div>
           </div>
-          <div class="col-md-6 mb-4">
+
+          <div class="card-body">
+            <h4>World Clock App</h4>
+            <p>
+              Built using HTML, an active API, and advanced CSS and JavaScript.
+            </p>
+          </div>
+          <div class="card-footer">
+            <a
+              href="https://worldclock-camilaapps.netlify.app/"
+              class="btn"
+              target="_blank"
+            >
+              Launch Project
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
             <img
               src="img/australian-shep-page.webp"
-              class="img-fluid mb-3 rounded"
               alt="Australian Shep project preview"
+              class="img-responsive"
             />
-            <h3 class="text-center m-0">Australian Shep Landing Page</h3>
-            <p class="text-center text-muted">
-              Built with HTML, CSS, and JavaScript
-            </p>
-            <div class="text-center mt-4 mb-5">
-              <a
-                href="https://www.shecodes.io/cohorts/shecodes-basics-fce9b431-f74c-4260-a633-606494ff1757/projects/1189998"
-                class="primary-link"
-                target="_blank"
-                >Launch Project</a
-              >
-            </div>
+          </div>
+
+          <div class="card-body">
+            <h4>Australian Shep Project</h4>
+            <p>Built with HTML, CSS, and JavaScript.</p>
+          </div>
+          <div class="card-footer">
+            <a
+              href="https://www.shecodes.io/cohorts/shecodes-basics-fce9b431-f74c-4260-a633-606494ff1757/projects/1189998"
+              class="btn"
+              target="_blank"
+            >
+              Launch Project
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <img
+              src="img/travel-page.webp"
+              alt="World Clock App"
+              class="img-responsive"
+            />
+          </div>
+
+          <div class="card-body">
+            <h4>Travel Page</h4>
+            <p>Built using HTML, and advanced CSS and responsive techniques.</p>
+          </div>
+          <div class="card-footer">
+            <a
+              href="https://travel-project-crc.netlify.app/"
+              class="btn"
+              target="_blank"
+            >
+              Launch Project
+            </a>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+    <section class="moreProjects">
+      <h2>More Projects</h2>
+      <div id="top"></div>
+      <section class="gallery">
+        <div class="row">
+          <ul>
+            <a href="#" class="close"></a>
+            <li>
+              <a class="image" href="#item01">
+                <img src="/img/web-design-1.webp" alt="Act Eco Page" />
+              </a>
+            </li>
+            <li>
+              <a class="image" href="#item02">
+                <img src="/img/web-design-2.webp" alt="MergeBase Page" />
+              </a>
+            </li>
+            <li>
+              <a class="image" href="#item03">
+                <img src="/img/web-design-3.webp" alt="Simplify Page" />
+              </a>
+            </li>
+            <li>
+              <a class="image" href="#item04">
+                <img src="/img/social-media01.webp" alt="Dictionary App" />
+              </a>
+            </li>
+            <li>
+              <a class="image" href="#item05">
+                <img src="/img/social-media02.webp" alt="World Clock App" />
+              </a>
+            </li>
+            <li>
+              <a class="image" href="#item06">
+                <img src="/img/social-media03.webp" alt="World Clock App" />
+              </a>
+            </li>
+            <li>
+              <a class="image" href="#item07">
+                <img src="/img/social-media04.webp" alt="World Clock App" />
+              </a>
+            </li>
+            <li>
+              <a class="image" href="#item08">
+                <img src="/img/logos.webp" alt="Weather App" />
+              </a>
+            </li>
+            <li>
+              <a class="image" href="#item09">
+                <img src="/img/printed.webp" alt="Printed Examples" />
+              </a>
+            </li>
+            <li>
+              <a class="image" href="#item10">
+                <img src="/img/email-marketing.webp" alt="Dictionary App" />
+              </a>
+            </li>
+            <li>
+              <a class="image" href="#item11">
+                <img src="/img/youtube-facebook.webp" alt="Simplify Page" />
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Items -->
+        <div id="item01" class="port">
+          <div class="row">
+            <div class="description">
+              <h1>Web Design Project</h1>
+            </div>
+            <img src="/img/web-design-1.webp" alt="Act Eco Page" />
+          </div>
+        </div>
+        <div id="item02" class="port">
+          <div class="row">
+            <div class="description">
+              <h1>Web Design Project</h1>
+            </div>
+            <img src="/img/web-design-2.webp" alt="MergeBase Page" />
+          </div>
+          <!-- / row -->
+        </div>
+        <div id="item03" class="port">
+          <div class="row">
+            <div class="description">
+              <h1>Web Desing Project</h1>
+            </div>
+            <img src="/img/web-design-3.webp" alt="Simplify Page" />
+          </div>
+        </div>
+        <div id="item04" class="port">
+          <div class="row">
+            <div class="description">
+              <h1>Social Media Management</h1>
+            </div>
+            <img src="/img/social-media01.webp" alt="IndiGrowth Page" />
+          </div>
+        </div>
+        <div id="item05" class="port">
+          <div class="row">
+            <div class="description">
+              <h1>Social Media Management</h1>
+            </div>
+            <img src="/img/social-media02.webp" alt="Sina Page" />
+          </div>
+        </div>
+        <div id="item06" class="port">
+          <div class="row">
+            <div class="description">
+              <h1>Social Media Management</h1>
+            </div>
+            <img src="/img/social-media03.webp" alt="Baileys Page" />
+          </div>
+        </div>
+        <div id="item07" class="port">
+          <div class="row">
+            <div class="description">
+              <h1>Social Media Management</h1>
+            </div>
+            <img src="/img/social-media04.webp" alt=" Lara Page" />
+          </div>
+        </div>
+        <div id="item08" class="port">
+          <div class="row">
+            <div class="description">
+              <h1>Logos</h1>
+            </div>
+            <img src="/img/logos.webp" alt="Logos Examples" />
+          </div>
+        </div>
+        <div id="item09" class="port">
+          <div class="row">
+            <div class="description">
+              <h1>Printed</h1>
+            </div>
+            <img src="/img/printed.webp" alt="Printed Materials Examples" />
+          </div>
+        </div>
+        <div id="item10" class="port">
+          <div class="row">
+            <div class="description">
+              <h1>Social Media Management</h1>
+            </div>
+            <img
+              src="/img/email-marketing.webp"
+              alt="Email Marketing Examples"
+            />
+          </div>
+        </div>
+        <div id="item11" class="port">
+          <div class="row">
+            <div class="description">
+              <h1>More Social Media Posts</h1>
+            </div>
+            <img
+              src="/img/youtube-facebook.webp"
+              alt="More Social Media Posts"
+            />
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="casestudies">
+      <h2 class="text-center">Case Studies</h2>
+
+      <div class="grid grid-3-columns">
+        <div class="card">
+          <div class="card-header">
+            <img
+              src="img/case-study01.webp"
+              alt="MergeBase Project"
+              class="img-responsive"
+            />
+          </div>
+
+          <div class="card-body">
+            <h4>UX Design and SEO Strategy</h4>
+            <p>
+              Startup in the field of cybersecurity with the objective of
+              increasing traffic through SEO and converting more customers to
+              start a free trial. The project had three parts: Optimization and
+              adaptation of all pages for better ranking in Google, redesigning
+              the pages to increase conversion, and implementation of on-page
+              and off-page SEO strategies and content to increase traffic.
+            </p>
+            <h5>Results</h5>
+            <ul>
+              <li>50% more organic traffic after three months.</li>
+              <li>
+                3x more free trials started in the first month after the
+                changes.
+              </li>
+              <li>3x more traffic than the target.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <img
+              src="img/case-study03.webp"
+              alt="Content Creation Project"
+              class="img-responsive"
+            />
+          </div>
+
+          <div class="card-body">
+            <h4>Content Creation</h4>
+            <p>
+              Created content aimed at increasing followers and promoting the
+              account's Amazon affiliate store. More than 100 posts were created
+              in 4 months, with one post per day from Monday to Friday with at
+              least one reels in the week.
+            </p>
+            <h5>Results</h5>
+            <ul>
+              <li>Almost 1M views in a single reel</li>
+              <li>Increase of 2K followers in less than two months</li>
+              <li>Engagement increase by 200%</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <img
+              src="img/case-study02.webp"
+              alt="Event Management - Case Study"
+              class="img-responsive"
+            />
+          </div>
+
+          <div class="card-body">
+            <h4>Event Management</h4>
+            <p>
+              Annually, the company celebrates its B2B clients with a special
+              event aimed at honoring the top sellers and concluding with
+              exclusive sales discounts. The event unfolds in three key phases:
+              Firstly, travel and accommodation expenses for all guests are
+              covered by the company. Secondly, participation in the Autopar
+              Convention enhances the brand's visibility and showcases its
+              potential to B2B clients. The event culminates in a gala dinner,
+              featuring lectures, an awards ceremony for the leading sellers,
+              and an exclusive sales promotion. This annual gathering
+              underscores the company's commitment to strengthening partnerships
+              with its B2B clients.
+            </p>
+            <h5>Results:</h5>
+            <ul>
+              <li>
+                More than 4k people visited the stand during the Autopae
+                Convention.
+              </li>
+              <li>103 B2B clients participated in the event.</li>
+              <li>
+                Sales - 80,000 tires sold in just 3 hours, more than 30% of the
+                event's target.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
     <div class="container">
       <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
         <div>
@@ -315,7 +530,6 @@
         </div>
       </div>
     </div>
-
     <footer>
       <ul>
         <li>
@@ -394,6 +608,6 @@
         <p>Copyright © 2024 Camila Rodrigues Campos</p>
       </div>
     </footer>
-    <script src="/src/index.js"></script>
+    <script src="src/index.js"></script>
   </body>
 </html>

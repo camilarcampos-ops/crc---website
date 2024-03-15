@@ -206,6 +206,7 @@ row {
 .project-cont-left {
   display: flex;
   width: 100%;
+  height: 240px;
   align-items: center;
   justify-content: center;
   border-radius: 24px;
@@ -222,7 +223,7 @@ row {
 .project-info {
   position: relative;
   width: 100%;
-  padding: 2rem 1rem 2rem 2rem;
+  padding: 3rem 2rem 3rem 3rem;
   background-color: var(--bg-white);
 }
 
@@ -274,7 +275,7 @@ row {
   flex-direction: column;
   width: 407px;
   align-items: flex-start;
-  gap: 2rem;
+  gap: 1rem;
 }
 .moreProjects {
   margin-top: 1.25rem;
@@ -608,6 +609,7 @@ input[type="submit"]:hover {
 
   .work-process {
     padding: 2rem 3rem;
+    width: 100%;
   }
 
   .h2Work {
@@ -696,5 +698,51 @@ input[type="submit"]:hover {
   }
   .talkIcon {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 1321px) and (min-width: 901px) {
+  .work-process {
+    padding: 6rem 6rem;
+  }
+
+  .work-process-content {
+    margin-left: -45rem;
+  }
+  .work-process-sum {
+    width: 350px;
+  }
+
+  .work-process-cards {
+    width: 100%;
+  }
+  .work-process-card {
+    display: flex;
+    gap: 1rem;
+    padding: 1.5rem;
+    width: auto;
+    height: auto;
+  }
+  .work-process-icon {
+    padding: 0.5rem;
+  }
+
+  .work-process-icon svg {
+    width: 24px;
+    height: 24px;
+  }
+  .work-process-stage {
+    font-size: 16px;
+  }
+  .stage-description {
+    font-size: 14px;
+  }
+
+  .right-col {
+    row-gap: 2rem;
+    padding: 1.5rem;
+  }
+  .left-col {
+    padding-left: 25px;
   }
 }

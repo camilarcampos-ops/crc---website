@@ -15,7 +15,7 @@ new Typewriter("#titleHero", {
 });
 
 function initAnimation(id, animationClass) {
-  const minWidthForAnimation = 768;
+  const minWidthForAnimation = 900;
 
   if (window.innerWidth >= minWidthForAnimation) {
     const element = document.querySelector(id);

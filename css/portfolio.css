@@ -22,13 +22,19 @@ section.frontend {
 
 .grid {
   display: grid;
-  grid-gap: 2.5rem;
+  grid-gap: 5%;
   grid-template-columns: 1fr 1fr 1fr;
   margin: 30px 0;
 }
 
 .examples {
+  text-align: center;
   background: white;
+  height: auto;
+}
+
+.examples:hover {
+  box-shadow: 0 32px 96px #1b191929;
 }
 
 .img-responsive {
@@ -44,8 +50,14 @@ section.frontend {
 .card-body {
   padding: 30px;
   text-align: justify;
+  height: 200px;
 }
 
+.case-study .card-body {
+  padding: 30px;
+  text-align: justify;
+  height: 100%;
+}
 .card-body h4 {
   margin-bottom: 1rem;
 }
@@ -80,8 +92,13 @@ section.frontend {
 section.casestudies {
   background: #f5f2fe;
   max-width: 100%;
-  padding: 5rem 10rem;
+  padding: 5rem 8rem;
   text-align: center;
+}
+
+.case-study {
+  background-color: white;
+  border-radius: 12px;
 }
 
 .card-body ul {
@@ -287,7 +304,7 @@ p {
 }
 
 .workTogether {
-  margin: -200px 8rem 1rem;
+  margin: -300px 8rem 1rem;
   position: relative;
 }
 .contact-box {
@@ -307,7 +324,7 @@ p {
 @media (max-width: 900px) {
   .grid {
     grid-template-columns: 1fr;
-    grid-gap: 32px;
+    grid-gap: 1.5rem;
   }
 
   section {
@@ -325,5 +342,16 @@ p {
   }
   .port h1 {
     font-size: 20px;
+  }
+  .contact-box {
+    padding: 30px 40px;
+  }
+  .workTogether {
+    margin: -300px 6rem 1rem;
+  }
+  .card-body {
+    padding: 30px;
+    text-align: justify;
+    height: 130px;
   }
 }
